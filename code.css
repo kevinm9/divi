@@ -1,0 +1,26 @@
+.et_pb_post {
+	position: relative;
+}
+
+.et_pb_post .post-meta a[rel="tag"] { 	
+  
+background-color: #049ae4;
+    color: #ffffff!important;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin: 0px;
+}
+
+.et_pb_post .post-meta {
+	position: absolute;
+  top:0px;
+  left:0px;
+  padding: 4px;
+}
+
+ article > .et_pb_post .post-meta::first-line {
+  color: transparent!important;
+  
+}
